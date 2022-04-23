@@ -32,10 +32,7 @@ nav{
     margin: 0 40px;
 
 }
-.right{
-    display: flex;
-    vertical-align: middle;
-}
+
 .nav-logo img{
     width:200px;
     margin-right: 50px;
@@ -80,7 +77,7 @@ li a:hover{
 .hero-details{
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .details{
     color: var(--white);
@@ -100,6 +97,7 @@ li a:hover{
 .illustration img{
     width: 550px;
     margin-right: 35px;
+    filter: brightness(120px);
     animation: bounce 3s linear infinite;
 }
 @keyframes bounce{
@@ -140,7 +138,7 @@ li a:hover{
     color: var(--green)
 }
 .sec2{
-    height: 150vh;
+    height: 100vh;
     background: url(/images/2\ section.jpg);
     background-size: cover;
 }
@@ -161,8 +159,10 @@ li a:hover{
 }
 .features{
     display: flex;
+    justify-content: center;
     position: relative;
-    top:200px;
+    top:100px;
+
 }
 .features img{
     width:600px;
@@ -208,4 +208,65 @@ li a:hover{
 .list3 h5{
     text-align: center;
 
+}
+.sec3{
+    background: var(--Dark-purple);
+   
+}
+.market-trend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+h3{
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 40px;
+}
+.coin-trend{
+    background-color: var(--Dark-purple);
+    width: 297px;
+    margin: 10px 5px;
+    padding: 15px 10px;
+    box-shadow: 0px 1px 4px 2px var(--green);
+    border-radius: 18px;
+    border: 1px solid var(--light-green);
+    color: var(--white);
+    vertical-align: center;
+}
+.tag-tag{
+    background-color:rgb(50, 74, 67);
+    padding: 5px 10px;
+    border-radius: 3px;
+
+}
+.coin-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.coin-details img{
+    width: 50px;
+}
+.token-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.chart img{
+    width:150px;
+}
+.price h4{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
