@@ -13,7 +13,7 @@
 
 }
 body{
-    overflow-x: hidden;
+  
     font-family: 'montserrat', san-serif;
 }
 .hero-section{
@@ -144,7 +144,7 @@ li a:hover{
 }
 .sec2 h2{
     position: relative;
-    left: 350px;
+    left: 380px;
     top: 50px;
     color: var(--white);
     text-align: center;
@@ -153,15 +153,16 @@ li a:hover{
 .sec2 p{
     position: relative;
     font-size: 14px;
-    left: 430px;
+    left: 460px;
     top: 60px;
     color: var(--green);
 }
 .features{
     display: flex;
-    justify-content: center;
+   
     position: relative;
     top:100px;
+    left: 100px;
 
 }
 .features img{
@@ -211,7 +212,7 @@ li a:hover{
 }
 .sec3{
     background: var(--Dark-purple);
-   
+ 
 }
 .market-trend{
     display: flex;
@@ -270,3 +271,78 @@ h3{
     font-size: 20px;
     margin-bottom: 10px;
 }
+.sec4{
+    background: var(--Dark-purple);
+    height: 50vh;
+   
+}
+.cta2{
+    position: relative;
+    top: 50px;
+    left: 300px;
+    color: var(--white);
+    text-align: center;
+    box-shadow: 5px 1px 13px 4px rgba(115, 253, 170, 0.48);
+    border-radius: 10px;
+    padding: 50px 100px;
+    width: 750px;
+   
+}
+cta2 h4{
+    color: var(--white);
+}
+input {
+    background: #FFFFFF;
+    color: var(--green);
+
+    border: 3px solid #73FDAA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: .75rem 15rem .75rem 1rem;
+}
+input:focus{
+    border: 6px solid var(--green); 
+}
+    
+button {
+      cursor: pointer;
+      background: var(--green);
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 3px;
+}
+
+button:hover{
+    background:var(--light-green);
+    color: var(--green);
+}
+footer{
+    background:var(--Dark-purple);
+    height: 50vh;
+    box-shadow: 5px 1px 13px 4px rgba(115, 253, 170, 0.48);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top:  40px; 
+    color: var(--white);
+}
+.col-1{
+    width: 350px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.col-2 a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+ 
